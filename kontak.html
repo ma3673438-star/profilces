@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hubungi Saya</title>
+    <link rel="stylesheet" href="styile.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">MyProfil</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="kontak.html" class="active">Kontak</a>
+      </nav>
+    </header>
+
+    <section class="page">
+      <div style="text-align: center; margin-bottom: 30px">
+        <h1 style="color: #d4af37">Hubungi Saya</h1>
+        <p style="opacity: 0.8">
+          Kirim pesan langsung melalui form di bawah ini
+        </p>
+      </div>
+
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 35px;
+          align-items: center;
+        "
+      >
+        <!-- INFO KONTAK -->
+        <div
+          style="
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(212, 175, 55, 0.6);
+            border-radius: 25px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+          "
+        >
+          <h2 style="color: #d4af37">Info Kontak</h2>
+
+          <p style="margin-top: 15px">
+            Alamat<br />
+            Kuripan, Lombok Barat, Nusa Tenggara Barat
+          </p>
+          <p style="margin-top: 10px">
+            Telepon<br />
+            +6287704789218
+          </p>
+          <p style="margin-top: 10px">
+            Email<br />
+            ces012@gmail.com
+          </p>
+
+          <div style="margin-top: 25px">
+            <a href="index.html" class="btn-primary">⬅ Home</a>
+            <a href="tentang.html" class="btn-primary">Profil ➜</a>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div
+          style="
+            background: rgba(0, 0, 0, 0.6);
+            border: 2px solid #d4af37;
+            border-radius: 25px;
+            padding: 35px;
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.2);
+          "
+        >
+          <h2 style="color: #d4af37; margin-bottom: 20px">Kirim Pesan</h2>
+
+          <form>
+            <label>Nama Lengkap</label>
+            <input type="text" placeholder="Masukkan nama Anda" />
+
+            <label>Email</label>
+            <input type="email" placeholder="Masukkan email Anda" />
+
+            <label>Pesan</label>
+            <textarea placeholder="Tulis pesan..." rows="4"></textarea>
+
+            <button class="btn-primary" style="margin-top: 15px">
+              Kirim Pesan
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Muzafar</p>
+    </footer>
+  </body>
+</html>
